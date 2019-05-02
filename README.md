@@ -30,7 +30,7 @@ In applications of cryptography, all of the weight of security depends on the ma
 1. Share this lab and potentially the [online response form][key-submission-form], otherwise be prepared to collect and analyze results by hand via whiteboard or similar.
 2. Once all results are collected, use the spreadsheet button on the editing view of the form to open the results in a spreadsheet on a screen the entire class can see.
 3. The results will first be in timestamp order. Right click the column containing data for the first 5 flips, and select the option to sort them from A -> Z.
-4. Highlight rows where the first 5 flips are identical (they should now be grouped together) and explain how these 5-bit strings represent the same key and are known as collisions.
+4. Highlight rows where the first 5 flips are identical (they should now be grouped together) and explain how these 5-bit strings represent the same key and are known as collisions, how the presence of collisions compromises the security of the key holder, and how the short length of the keys allows an adversary with sufficient computing power to crack them by iterating through all possible keys.
 5. Right click the column containing data for the next 10 flips, and select the option to sort them from A -> Z. Now do the same for the column containing the first 5 flips again.
     * This works to align potential collisions while demonstrating that there are (probably) no collisions, since the sorting algorithm is stable.
 6. Attempt to locate any rows where all 15 flips match (they should now be grouped together, if they exist) and explain how the (probable) lack of any collisions makes these keys secure.
